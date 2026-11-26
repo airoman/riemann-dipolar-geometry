@@ -1,0 +1,43 @@
+name: "🔬 Mathematical Audit / Review"
+description: "Submit a rigorous peer review, challenge, or verification question about a specific theorem or module."
+title: "[Audit]: "
+labels: ["audit", "mathematics"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the academic scrutiny and verification of this repository.
+        All 42 Lean 4 modules are designed for transparent, democratic auditability.
+  - type: input
+    id: module_name
+    attributes:
+      label: Target Module or Section
+      description: Which Lean 4 module or paper section are you auditing?
+      placeholder: "e.g., Module #42 (SteinBinaryGCDWorkedTableAndDirichletChi5.lean) or Section 4.2"
+    validations:
+      required: true
+  - type: textarea
+    id: audit_finding
+    attributes:
+      label: Audit Finding / Mathematical Scrutiny
+      description: Describe your observation, question, or verification finding in detail.
+      placeholder: "State clearly the mathematical assertion, Lean identifier, or step under consideration..."
+    validations:
+      required: true
+  - type: textarea
+    id: verification_steps
+    attributes:
+      label: Steps to Reproduce / Verification Command
+      description: Did you check this via Lean 4 kernel, Python script, or pen-and-paper?
+      placeholder: "e.g., cd lean_mathlib4_project && lake env lean RiemannDipolar/MasterGRHModusPonensBridge.lean"
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Audit Classification
+      options:
+        - "Clarification / Question on Notation or Logic"
+        - "Proof Simplification or Optimization Suggestion"
+        - "Potential Gap or Edge Case for Review"
+        - "Upstream Mathlib4 Integration Suggestion"
+    validations:
+      required: true

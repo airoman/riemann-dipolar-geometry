@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you reference this formalization, paper, or computational suite, please cite it as below."
+type: software
+title: "The Dipolar Geometry of the Primes and the Critical Line of the Riemann Zeta Function: A Machine-Verified Geodesic and Adelic Framework"
+authors:
+  - family-names: "Ramírez Tamayo"
+    given-names: "Mariano Martín"
+    affiliation: "Independent Researcher"
+    orcid: "https://orcid.org/0009-0005-6194-1845"
+date-released: 2026-11-26
+repository-code: "https://github.com/airoman/riemann-dipolar-geometry"
+url: "https://github.com/airoman/riemann-dipolar-geometry"
+license: Apache-2.0
+keywords:
+  - "Riemann Hypothesis"
+  - "Generalized Riemann Hypothesis"
+  - "Dirichlet L-functions"
+  - "Riemann Zeta Function"
+  - "Lean 4"
+  - "Mathlib4"
+  - "Formal Verification"
+  - "Clifford Torus"
+  - "Weil Positivity"
+  - "Adelic Analysis"
+  - "Prime Sieve"
+  - "Goldbach"
+  - "Twin Primes"
+abstract: >-
+  A 42-module Lean 4 + Mathlib4 formalization (43,906 module lines / 44,710 total lines,
+  7,918 Lake build jobs, zero sorry, standard axioms only) and accompanying paper
+  establishing non-circular past-future prime-sieve coordinates (rotor and Stein Binary GCD),
+  exact inter-prime dipolar neutrality (Goldbach centers, Twin Prime ground states,
+  tetrahedral quadrupole moments, and total basin Euclidean energy), von Mangoldt boundary-jump
+  identities, unconditional closure of Re(s) >= 1 (including Re(s) = 1), arbitrary-dimension
+  Cholesky-Schur Gram induction, compact 5D manifold M^5 = (S^3/Gamma_120) x T^2
+  golden-ratio icosian coordinates, Hurwitz-KAM Diophantine spiral non-resonance, and primitive
+  quadratic character chi_5 (L(1, chi_5) != 0), North-Pole compactification with preconditioned
+  spectral congruence rescue, six exact bidirectional equivalences with Mathlib4's
+  official RiemannHypothesis, and an eight-way global bidirectional equivalence with
+  the Generalized Riemann Hypothesis (GRH) across all primitive and imprimitive Dirichlet
+  L-functions L(s, chi) with zero-Lyapunov quasiperiodic order and formal Modus Ponens elevation.

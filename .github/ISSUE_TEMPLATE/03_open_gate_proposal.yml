@@ -1,0 +1,28 @@
+name: "⚡ Open Gate Verification / Modus Ponens Challenge"
+description: "Propose a formalization or proof strategy for the single open asymptotic gate (relative geodesic decay at θ = π)."
+title: "[Open Gate]: "
+labels: ["open-gate", "research", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### The Open Asymptotic Gate
+        As established in Section 7 of the paper and Module #39 / #41:
+        RH and GRH are unconditionally reduced to the spectrally preconditioned North-Pole relative geodesic decay bound:
+        `\tilde{\mu}'(\theta) \ge -C \tilde{\mu}(\theta)` on the meridian of the Clifford Torus.
+        
+        This issue template is for formal proposals, candidate operator preconditioned bounds, or partial asymptotic steps toward closing this final gate.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Technical Proposal
+      description: Describe your mathematical approach or candidate operator bound.
+      placeholder: "Detail the preconditioning operator B_L or the specific Gronwall estimate..."
+    validations:
+      required: true
+  - type: textarea
+    id: formalization_status
+    attributes:
+      label: Lean 4 Formalization Sketch
+      description: Provide any initial Lean 4 snippets or lemmas.
+      placeholder: "lemma preconditioned_gronwall_meridian ... : ..."

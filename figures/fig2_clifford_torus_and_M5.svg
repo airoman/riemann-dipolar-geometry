@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380">
+<style>
+  .title { font: bold 13.5px "Segoe UI", Arial, sans-serif; fill: #0b1f3a; }
+  .panel { font: bold 11.8px "Segoe UI", Arial, sans-serif; fill: #0b1f3a; }
+  .lbl { font: 10.2px "Segoe UI", Arial, sans-serif; fill: #222; }
+  .small { font: 9.6px "Segoe UI", Arial, sans-serif; fill: #475569; }
+</style>
+<rect width="900" height="380" fill="#ffffff"/>
+<text x="24" y="24" class="title">Figure 2. Geometric-Dynamical Architecture of M&#x2075; = (S&#xB3;/&#x0393;&#x2081;&#x2082;&#x2080;) &#xD7; T&#xB2; and Stereographic North-Pole Compactification</text>
+<rect x="20" y="38" width="420" height="324" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="36" y="60" class="panel">(A) Clifford Torus T&#xB2; &#x2282; S&#xB3; Equatorial Rigidity &amp; Golden Spiral</text>
+<ellipse cx="230" cy="198" rx="155" ry="92" fill="#eff6ff" stroke="#1e3a8a" stroke-width="1.8"/>
+<ellipse cx="230" cy="198" rx="68" ry="34" fill="#f8fafc" stroke="#1e3a8a" stroke-width="1.5"/>
+<ellipse cx="230" cy="198" rx="112" ry="63" fill="none" stroke="#0d9488" stroke-width="2.6"/>
+<path d="M 118,198 Q 92,135 55,105" fill="none" stroke="#dc2626" stroke-width="1.8" stroke-dasharray="5,3"/>
+<path d="M 342,198 Q 372,135 408,105" fill="none" stroke="#dc2626" stroke-width="1.8" stroke-dasharray="5,3"/>
+<polyline points="368.0,198.0 367.3,204.7 365.0,211.3 361.4,217.6 356.5,223.6 350.3,229.1 343.1,234.1 335.1,238.4 326.3,242.2 316.9,245.3 307.3,247.7 297.4,249.4 287.5,250.6 277.8,251.2 268.3,251.3 259.1,251.0 250.2,250.4 241.8,249.5 233.7,248.4 226.0,247.1 218.7,245.8 211.5,244.4 204.6,243.0 197.8,241.6 191.0,240.1 184.1,238.6 177.3,236.9 170.3,235.1 163.2,233.1 156.1,230.8 149.0,228.2 141.9,225.2 135.1,221.8 128.5,217.9 122.4,213.5 117.0,208.7 112.2,203.4 108.4,197.8 105.7,191.7 104.2,185.5 103.9,179.0 105.0,172.5 107.4,166.0 111.3,159.7 116.6,153.7 123.1,148.2 130.8,143.1 139.6,138.7 149.2,134.9 159.6,131.9 170.4,129.7 181.6,128.4 192.9,127.8 204.1,128.0 215.0,128.9 225.5,130.5 235.5,132.6 244.9,135.3 253.5,138.4 261.4,141.8 268.5,145.4 274.9,149.2 280.7,153.0 285.8,156.8 290.4,160.7 294.6,164.4 298.5,168.1 302.0,171.7 305.4,175.3 308.6,178.9 311.8,182.5 314.8,186.2 317.7,190.1 320.5,194.1 323.0,198.3 325.2,202.9 327.0,207.6 328.3,212.7 328.9,218.0 328.6,223.5 327.5,229.2 325.4,235.0 322.2,240.8 317.9,246.5 312.3,252.0 305.7,257.2 297.9,262.0 289.1,266.3 279.4,270.0 268.9,272.9 257.9,275.1 246.4,276.4 234.7,276.9 223.0,276.5 211.5,275.2 200.4,273.2 190.0,270.3 180.2,266.8 171.4,262.7 163.5,258.1 156.7,253.1 151.0,247.8 146.4,242.4 142.8,236.8 140.2,231.3 138.5,225.9 137.7,220.6 137.5,215.6 137.9,210.7 138.8,206.1 140.0,201.7 141.5,197.5 143.2,193.5 145.0,189.5 147.0,185.7 149.1,181.8 151.3,178.0 153.7,174.1 156.4,170.1 159.5,165.9 163.0,161.7 167.0,157.5 171.7,153.1 177.1,148.8 183.3,144.6 190.3,140.6 198.1,136.8 206.7,133.3 216.1,130.3 226.2,127.9 236.9,126.1 248.0,125.0 259.4,124.6 270.8,125.1 282.2,126.4 293.2,128.5 303.7,131.4 313.5,135.1 322.3,139.5 330.2,144.5 336.8,150.0 342.2,155.9 346.3,162.1 349.0,168.4 350.3,174.8 350.4,181.2 349.2,187.4 346.9,193.3 343.7,198.9 339.6,204.1 334.8,208.9 329.5,213.3 323.7,217.2 317.7,220.8 311.5,224.0 305.2,226.9 298.9,229.5 292.7,231.9 286.4,234.1 280.2,236.3 274.0,238.4 267.7,240.4 261.3,242.5 254.6,244.5 247.6,246.5 240.3,248.5 232.6,250.3 224.4,252.0 215.7,253.4 206.5,254.5 197.0,255.2 187.1,255.4 176.9,255.1 166.6,254.2 156.3,252.6 146.2,250.4 136.5,247.4 127.3,243.7 118.9,239.4 111.4,234.4" fill="none" stroke="#d97706" stroke-width="1.3" opacity="0.85"/>
+<rect x="46" y="115" width="368" height="18" rx="4" fill="#ffffff" opacity="0.92" stroke="#99f6e4" stroke-width="0.8"/>
+<text x="230" y="128" text-anchor="middle" class="lbl" fill="#0f766e">Clifford Equator: &#x03B2; = 1/2 (|z&#x2081;|&#xB2; = |z&#x2082;|&#xB2; = 1/2, z&#x2083; = 0, K = &#x03BB; = 0)</text>
+<text x="42" y="96" class="small" fill="#b91c1c">&#x03B2; &#x2260; 1/2: K = &#x2212;(&#x03B2;&#x2212;1/2)&#xB2; &lt; 0</text>
+<text x="316" y="96" class="small" fill="#b91c1c">Hyperbolic Escape</text>
+<text x="230" y="315" text-anchor="middle" class="lbl">Golden Geodesic Spiral (&#x03C9; = &#x03C6; &#x2248; 1.618, |q&#x03C6; &#x2212; p| &#x2265; 1/(&#x221A;5 q + 1))</text>
+<text x="230" y="334" text-anchor="middle" class="small">Icosian fiber &#x0393;&#x2081;&#x2082;&#x2080; &#x2282; S&#xB3;: (&#xB1;&#x03C6;/2, &#xB1;1/2, &#xB1;&#x03C6;&#x207B;&#xB9;/2, 0) &#x2208; S&#xB3; | Vol(M&#x2075;) = &#x03C0;&#x2074;/15</text>
+<rect x="460" y="38" width="420" height="324" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="476" y="60" class="panel">(B) Critical Strip Closure &amp; Stereographic North Pole &#x03B8;(L) &#x2192; &#x03C0;</text>
+<rect x="484" y="88" width="164" height="210" fill="#fff" stroke="#94a3b8"/>
+<rect x="608" y="88" width="40" height="210" fill="#bbf7d0" opacity="0.85"/>
+<rect x="484" y="122" width="18" height="142" fill="#dbeafe" opacity="0.9"/>
+<rect x="590" y="122" width="18" height="142" fill="#dbeafe" opacity="0.9"/>
+<rect x="484" y="174" width="124" height="38" fill="#99f6e4" opacity="0.75"/>
+<line x1="546" y1="88" x2="546" y2="298" stroke="#0d9488" stroke-width="2.2"/>
+<line x1="608" y1="88" x2="608" y2="298" stroke="#15803d" stroke-width="2"/>
+<text x="484" y="313" text-anchor="middle" class="small">0</text>
+<text x="546" y="313" text-anchor="middle" class="small">1/2</text>
+<text x="608" y="313" text-anchor="middle" class="small">1</text>
+<text x="628" y="196" text-anchor="middle" class="small" fill="#166534" transform="rotate(-90 628 196)">Re(s) &#x2265; 1 CLOSED (All &#x03B3;)</text>
+<text x="546" y="197" text-anchor="middle" class="small" fill="#0f766e">[-4,4] Zero-Free</text>
+<text x="546" y="112" text-anchor="middle" class="small">Open Collar &#x03B4;(T)</text>
+<circle cx="770" cy="193" r="78" fill="#eff6ff" stroke="#1e3a8a" stroke-width="1.8"/>
+<path d="M 770,271 A 78,78 0 0,1 770,115" fill="none" stroke="#0d9488" stroke-width="2.8"/>
+<circle cx="770" cy="271" r="4.5" fill="#1e3a8a"/>
+<circle cx="770" cy="115" r="5.5" fill="#dc2626"/>
+<circle cx="692" cy="193" r="4.5" fill="#d97706"/>
+<text x="770" y="104" text-anchor="middle" class="lbl" fill="#b91c1c">North Pole &#x03B8; = &#x03C0; (L &#x2192; &#x221E;)</text>
+<text x="770" y="288" text-anchor="middle" class="small">South Pole &#x03B8; = 0 (L = 0)</text>
+<text x="682" y="188" text-anchor="end" class="small">&#x03B8; = &#x03C0;/2</text>
+<text x="770" y="192" text-anchor="middle" class="small">&#x03B8;(L) = 2 arctan(L)</text>
+<text x="770" y="208" text-anchor="middle" class="small">Precond. Gronwall:</text>
+<text x="770" y="223" text-anchor="middle" class="small">&#x03BC;&#x0303;&#x2032; &#x2265; &#x2212;C&#x03BC;&#x0303; &#x21D2; &#x03BC;&#x0303;(&#x03C0;) &gt; 0</text>
+<text x="670" y="344" text-anchor="middle" class="small">All finite L &gt; 0 reduced to Schur/Gram; preconditioned gate at &#x03B8; = &#x03C0;.</text>
+</svg>

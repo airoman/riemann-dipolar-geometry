@@ -1,0 +1,33 @@
+name: "💻 Lean 4 Build or CI Issue"
+description: "Report a build failure, toolchain incompatibility, or CI runner issue."
+title: "[Build]: "
+labels: ["build", "lean4", "ci"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please report any issues reproducing the build on your local environment.
+  - type: input
+    id: environment
+    attributes:
+      label: Operating System & Hardware
+      description: OS version, CPU, and RAM.
+      placeholder: "e.g., Ubuntu 24.04 LTS / macOS Sequoia M2 / Windows 11, 16GB RAM"
+    validations:
+      required: true
+  - type: input
+    id: lean_version
+    attributes:
+      label: Lean & Elan Version
+      description: Output of `elan --version` and `lean --version`.
+      placeholder: "e.g., Lean (version 4.36.0, ...)"
+    validations:
+      required: true
+  - type: textarea
+    id: error_log
+    attributes:
+      label: Build Log / Trace
+      description: Paste the terminal output from `lake build` or `lake update`.
+      placeholder: "error: ..."
+    validations:
+      required: true

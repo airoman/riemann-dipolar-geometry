@@ -1,0 +1,19 @@
+# Build artifacts & caches
+lean_mathlib4_project/.lake/
+__pycache__/
+scripts/__pycache__/
+*.pyc
+*.pyo
+*.exe
+*.o
+*.obj
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.html
+.DS_Store
+Thumbs.db

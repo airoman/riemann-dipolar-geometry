@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Lean Zulip Community Discourse
+    url: https://leanprover.zulipchat.com/
+    about: Ask questions and discuss Lean 4 formal verification topics on the official Zulip chat.
+  - name: Author Academic Email / Inquiries
+    url: https://orcid.org/0009-0005-6194-1845
+    about: For formal research correspondence and academic inquiries.
