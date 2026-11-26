@@ -5,6 +5,7 @@
 [![Modules Verified](https://img.shields.io/badge/Modules-42%20Verified%20(0%20sorry)-brightgreen.svg)](docs/LEAN4_MODULES_ARCHITECTURE.md)
 [![Axioms](https://img.shields.io/badge/Axioms-propext%20%7C%20Classical.choice%20%7C%20Quot.sound-informational.svg)](docs/LEAN4_MODULES_ARCHITECTURE.md)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--6194--1845-a6ce39.svg)](https://orcid.org/0009-0005-6194-1845)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24556170.svg)](https://doi.org/10.5281/zenodo.24556170)
 [![License](https://img.shields.io/badge/License-Apache%202.0%20%2F%20CC--BY%204.0-lightgrey.svg)](LICENSE)
 [![Contributing](https://img.shields.io/badge/Contributions-Welcome%20%26%20Guidelines-orange.svg)](CONTRIBUTING.md)
 

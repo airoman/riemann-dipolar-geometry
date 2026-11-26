@@ -7,6 +7,8 @@ authors:
     given-names: "Mariano Martín"
     affiliation: "Independent Researcher"
     orcid: "https://orcid.org/0009-0005-6194-1845"
+version: "1.0.0"
+doi: "10.5281/zenodo.24556170"
 date-released: 2026-11-26
 repository-code: "https://github.com/airoman/riemann-dipolar-geometry"
 url: "https://github.com/airoman/riemann-dipolar-geometry"
