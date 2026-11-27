@@ -73,11 +73,20 @@ jobs:
           #print axioms SteinBinaryGCDWorkedTableAndDirichletChi5.chi5_LFunction_one_ne_zero
           EOF
           lake env lean /tmp/ci_axiom_audit.lean | tee /tmp/ci_axioms.out
-          if grep -E "sorryAx|ofReduceBool" /tmp/ci_axioms.out; then
-            echo "ERROR: Non-canonical axiom detected!"
-            exit 1
-          fi
-          echo "VERIFIED: Strictly canonical axioms [propext, Classical.choice, Quot.sound]."
+          python3 - << 'PYEOF'
+          import re, sys
+          allowed = {"propext", "Classical.choice", "Quot.sound"}
+          with open("/tmp/ci_axioms.out") as f:
+              for line in f:
+                  m = re.search(r"depends on axioms:\s*\[([^\]]*)\]", line)
+                  if m:
+                      axs = {a.strip() for a in m.group(1).split(",") if a.strip()}
+                      extra = axs - allowed
+                      if extra:
+                          print(f"ERROR: Non-canonical axioms detected: {extra}")
+                          sys.exit(1)
+          print("VERIFIED: Strictly canonical axioms [propext, Classical.choice, Quot.sound] only.")
+          PYEOF
 
   verify-computational-sanity:
     name: Computational Sanity Check (Python + C99)

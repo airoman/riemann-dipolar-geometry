@@ -12,7 +12,10 @@
 **Author:** Mariano Martín Ramírez Tamayo — Development Engineering at Free Range XR · Independent Researcher · **ORCID:** [0009-0005-6194-1845](https://orcid.org/0009-0005-6194-1845)  
 **Date:** November 26, 2026  
 **Formal Verification:** Lean 4 v4.36.0 + Mathlib4 (`42` modules, `43,906` module lines / `44,710` total lines, `7,918` Lake jobs passed, `0 sorry`, axioms strictly `[propext, Classical.choice, Quot.sound]`)  
-**License:** Dual-licensed under [Apache-2.0](LICENSE) (source code) and [CC-BY-4.0](LICENSE) (papers & documentation)
+**License:** Code under [Apache-2.0](LICENSE); papers & documentation under CC-BY-4.0
+
+> [!NOTE]
+> **Upfront Epistemological Scope:** This repository **does not claim an independent unconditional proof of RH or GRH**, nor does it assume `RiemannHypothesis` as an axiom. It is a **42-module Lean 4 + Mathlib4 formalization suite** (`0 sorry`, strictly canonical axioms `[propext, Classical.choice, Quot.sound]`) certifying unconditional finite analytic/arithmetic theorems (closure of $\mathrm{Re}(s) \ge 1$, explicit zero-free rectangle $(0,1)\times[-4,4]$, continuous Weil positivity across the first 7 prime powers, no-go walls) alongside machine-checked bidirectional equivalences (`A ↔ RiemannHypothesis` / `GRH`) and reproducible computational/visual tools. The Zenodo DOI archives this software/preprint release and is not a peer-reviewed journal publication.
 
 ---
 
