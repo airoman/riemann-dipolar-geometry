@@ -5,11 +5,11 @@ title: "The Dipolar Geometry of the Primes and the Critical Line of the Riemann 
 authors:
   - family-names: "Ramírez Tamayo"
     given-names: "Mariano Martín"
-    affiliation: "Independent Researcher"
+    affiliation: "Free Range XR; Universidad Autónoma Metropolitana (UAM Azcapotzalco), Mexico"
     orcid: "https://orcid.org/0009-0005-6194-1845"
-version: "1.0.0"
+version: "1.0.1"
 doi: "10.5281/zenodo.24556170"
-date-released: 2026-11-26
+date-released: 2026-11-28
 repository-code: "https://github.com/airoman/riemann-dipolar-geometry"
 url: "https://github.com/airoman/riemann-dipolar-geometry"
 license: Apache-2.0

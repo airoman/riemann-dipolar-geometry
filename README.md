@@ -23,9 +23,10 @@
 
 * **Terminology Disambiguation ("Dipolar" vs. "Pole"):** Throughout this repository, *"dipolar"* refers strictly to the signed two-sided past–future distance pair $`(k_r(N), k_i(N))`$ lifted into the Gaussian integers $`\mathbb{Z}[i]`$ and split-quaternions $`\mathcal{Z}_{\text{dual}} = N + i k_i + j k_r`$, whose difference $`D(N) = k_i - k_r`$ satisfies exact zero-sum cancellation $`\sum D(N) = 0`$ on every inter-prime gap. It is distinct from a *meromorphic pole* (such as $`s = 1`$), *polar coordinates*, or the *stereographic North Pole* $`\theta = \pi`$ of $`S^3`$.
 * **Deterministic Verification:** Every theorem is checked deterministically by the Lean 4 v4.36.0 kernel (`7,918` Lake jobs, `0 sorry`, strictly `[propext, Classical.choice, Quot.sound]`), with full CI axiom auditing in [`.github/workflows/lean_ci.yml`](.github/workflows/lean_ci.yml).
-* **Companion Works in This Series:**
+* **Companion Works in This Four-Paper Series:**
   - **Analytic & Regularization Engine:** [`dipolar-singularity-resolution`](https://github.com/airoman/dipolar-singularity-resolution) — 16 Lean 4 modules unifying 26 classical singularities, Sokhotski–Plemelj causal resolvents, 2D Cauchy–Riemann harmonicity, Cayley $`S`$-matrix unitarity, and certified branchless GPU/3D/ML primitives.
-  - **Forthcoming Series Extensions:** Quantum two-slit complementarity & Bell–CHSH geometry on $`\mathbb{T}^2 \subset S^3`$ (`double-slit-phase-geometry`) and spectral Hankel–Turán past–future moment exclusion (`dipolar-past-future-algebra`).
+  - **Quantum Complementarity on $`\mathbb{T}^2 \subset S^3`$:** [`double-slit-phase-geometry`](https://github.com/airoman/double-slit-phase-geometry) — 8 Lean 4 modules verifying Born superposition, Englert duality ($`V^2+D^2\le 1`$), decoherence, quantum eraser no-signaling, qubit purity, and Bell–CHSH violation ($`2 < 2\sqrt{2}`$).
+  - **Spectral Moment Exclusion:** [`dipolar-past-future-algebra`](https://github.com/airoman/dipolar-past-future-algebra) — 11 Lean 4 modules certifying hyperbolic light-cone $`\leftrightarrow`$ Cayley–Clifford unification, the 2×2 Masking vs. 3×3 Amplification Hankel Theorem, explicit negative-energy witness, parity sign law $`(-1)^p`$, and empirical verification on real Riemann $`\xi(s)`$ moments.
 
 ---
 
